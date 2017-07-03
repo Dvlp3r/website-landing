@@ -80,7 +80,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="margin-top-0 text-primary">Flexible Layouts</h2>
+                    <h2 class="margin-top-0 text-primary">What you do, defines who you are</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -96,14 +96,14 @@
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="feature">
-                        <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                        <i class="icon-lg ion-android-people wow fadeInUp" data-wow-delay=".2s"></i>
                         <h3>Business Consulting</h3>
                         <p class="text-muted">Our Businesses have streamlined their operations, maximizing their effeciencies while increasing their bottom line.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="feature">
-                        <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
+                        <i class="icon-lg ion-arrow-graph-up-right wow fadeIn" data-wow-delay=".3s"></i>
                         <h3>Startup Consulting</h3>
                         <p class="text-muted">We develop sustainable and scalable business models for new Startups.</p>
                     </div>
@@ -251,21 +251,21 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2 class="text-primary">Get Started</h2>
-                <a href="#" target="ext" class="btn btn-default btn-lg wow flipInX">Get Started</a>
+                <h2 class="text-primary">Unleash your potential</h2>
+                <a href="#" data-toggle="modal" title="Contact us" data-target="#aboutModal" class="btn btn-default btn-lg wow flipInX">Get Started</a>
             </div>
             <br>
             <hr/>
             <br>
             <div class="row">
-                <div class="col-lg-12 ">
+                <div class="col-lg-12">
                     <div class="row">
                         <h6 class="wide-space text-center">Discover our Clients</h6>
-                        <div class="col-sm-4 col-xs-12 text-center">
+                        <div class="col-sm-5 col-xs-12 text-center">
                           <img src="./assets/client3.png" class="img-responsive" alt="">
                             <!-- <i class="icon-lg ion-social-html5-outline" title="html 5"></i> -->
                         </div>
-                        <div class="col-sm-4 col-xs-12 text-center">
+                        <div class="col-sm-3 col-xs-12 text-center">
                           <img src="./assets/client1.png" class="img-responsive" alt="">
                             <!-- <i class="icon-lg ion-social-sass" title="sass"></i> -->
                         </div>
@@ -290,26 +290,26 @@
                     <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="contact-form row">
+                    <form action="/homecontact" name="/" method="post" class="contact-form row">
                         <div class="col-md-4">
                             <label></label>
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" id="name" class="form-control" name="name" placeholder="Name">
                         </div>
                         <div class="col-md-4">
                             <label></label>
-                            <input type="text" class="form-control" placeholder="Email">
+                            <input type="email" id="email" class="form-control" name="email" placeholder="Email">
                         </div>
                         <div class="col-md-4">
                             <label></label>
-                            <input type="text" class="form-control" placeholder="Phone">
+                            <input type="number" id="phone" class="form-control" name="phone" placeholder="Phone">
                         </div>
                         <div class="col-md-12">
                             <label></label>
-                            <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
+                            <input class="form-control" id="message" rows="9" name="message" placeholder="Your message here.."></input>
                         </div>
                         <div class="col-md-4 col-md-offset-4">
                             <label></label>
-                            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
+                            <input type="submit" value="SEND" class="btn btn-primary btn-block btn-lg"></input>
                         </div>
                     </form>
                 </div>
@@ -339,21 +339,21 @@
                 </div>
                 <div class="col-xs-12 col-sm-3 column">
                     <h4>Stay Posted</h4>
-                    <form>
+                    <form action="/subscriber" method="post">
                         <div class="form-group">
-                          <input type="text" class="form-control" title="No spam, we promise!" placeholder="Tell us your email">
+                          <input type="text" class="form-control" id="email" name="email" title="No spam, we promise!" placeholder="Tell us your email">
                         </div>
                         <div class="form-group">
-                          <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button">Subscribe for updates</button>
+                          <button class="btn btn-primary" type="submit">Subscribe for updates</button>
                         </div>
                     </form>
                 </div>
                 <div class="col-xs-12 col-sm-3 text-right">
                     <h4>Follow</h4>
                     <ul class="list-inline">
-                      <li><a rel="nofollow" href="" title="Instagram"><i class="icon-lg ion-social-instagram-outline"></i></a>&nbsp;</li>
-                      <li><a rel="nofollow" href="" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>
-                      <li><a rel="nofollow" href="" title="Linkedin"><i class="icon-lg ion-social-linkedin-outline"></i></a></li>
+                      <li><a rel="nofollow" href="https://www.instagram.com/dvlp3r/" title="Instagram"><i class="icon-lg ion-social-instagram-outline"></i></a>&nbsp;</li>
+                      <li><a rel="nofollow" href="https://www.youtube.com/channel/UCasVIyGgAHCTmN6QVHPmRWA" title="Youtube"><i class="icon-lg ion-social-youtube-outline"></i></a>&nbsp;</li>
+                      <li><a rel="nofollow" href="https://www.linkedin.com/company-beta/10432677/" title="Linkedin"><i class="icon-lg ion-social-linkedin-outline"></i></a></li>
                     </ul>
                 </div>
             </div>
