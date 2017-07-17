@@ -9,7 +9,7 @@ require 'sinatra'
 # end
 
 get '/' do
-  send_file File.join(settings.public_folder, 'bindex.html')
+  send_file File.join(settings.public_folder, 'index.html')
 
 
 
